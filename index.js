@@ -2,4 +2,4 @@
 // entry point
 //
 
-module.exports = require('./lib/elog');
+module.exports = require('./lib/elog-activity');

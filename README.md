@@ -1,23 +1,23 @@
-# elog
+# elog-activity
 
-ERS elog middleware
+ERS elog activity middleware
 
 ## Installation
 
 ```sh
-$ npm i --save ersinfotech/elog
+$ npm i --save ersinfotech/elog-activity
 ```
 
 ## API
 
 ```js
 var express = require('express');
-var Elog = require('elog');
+var elogActivity = require('elog-activity');
 
 var app = express();
-var elog = Elog({baseUrl: 'http://logUrl'});
+var log = elogActivity({baseUrl: 'http://logUrl'});
 
-app.get(log('some name'), function(req, res, next){
+app.get(log('type name'), function(req, res, next){
     res.end();
 });
 ```

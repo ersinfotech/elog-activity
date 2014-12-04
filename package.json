@@ -1,5 +1,5 @@
 {
-  "name": "elog",
+  "name": "elog-activity",
   "version": "0.0.0",
   "description": "ers elog middleware",
   "main": "index.js",
